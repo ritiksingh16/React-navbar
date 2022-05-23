@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+  border: 2px solid rgb(214,226,236);
+  height: 40px;
+  width: 700px;
+  background-color:rgb(214,226,236) ;
+  padding: 20px;
+  line-height: 2rem;
+  margin: auto;
+  margin-top: 100px;
+
+}
+.graybox{
+  display:flex;
+  height: 40px;
+  gap: 80px;
+  justify-content: space-evenly;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: rgb(36,37,42);
+  
+}
+.graybox > div{
+  border: 2px solid rgb(36,37,42);
+  padding:0px 20px;
+  color: white;
+  font-size: 10px;
+
+
+}
+.middlebox{
+  display: flex;
+  gap: 10px;
+
+}
+.middlebox > div {
+  color: rgb(185, 186, 192);
+  font-size: 10px;
+
+}
+.third > button{
+  border-radius: 10px;
+  border: 0;
+  padding: 3px 9px;
+  font-size: 10px;
+  color: white;
+  background-color: rgb(1,137,164);
+  
+
+}
+.third > button:hover{
+ 
+  color: rgb(1,137,164);
+  background-color: white;
+  cursor: pointer;
+  
+
+}
